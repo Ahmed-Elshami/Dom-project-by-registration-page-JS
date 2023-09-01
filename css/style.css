@@ -1,0 +1,102 @@
+body, .form-container
+{
+    background-color: #24353f;
+}
+body
+{
+    height: 75vh;
+}
+p a:hover
+{
+    text-decoration: underline !important;
+}
+.form-container
+{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1)
+}
+input::placeholder
+{
+    color:  rgb(182, 182, 182) !important;
+}
+.navbar
+{
+    background-color: #24353f !important;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.group {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+#usernameAlert, #userEmailAlert, #userPasswordAlert
+{
+    font-size: .8rem;
+}
+
+/*                            */
+
+
+.item{
+    position: relative;
+}
+
+.item .caption{
+    background-color: #FFF;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    width: 80%;
+    bottom: 20px;
+    left: 10%;
+}
+.one{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+#lightbox-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+#lightbox-item{
+    width: 60%;
+    height: 500px;
+    background-image: url(../img/testimonials-1.jpg);
+    background-size:100% 100% ;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+#lightbox-item #close{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.item img {
+    height: 370px;
+    width: 100%;
+}
+#username{
+    
+    color: #FFF;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 15px;
+    transition: all 1s;
+
+}
+#username:hover{
+    
+    color: brown;
+    transition: all 1s;
+    
+}
