@@ -74,7 +74,9 @@ input::placeholder
     justify-content: space-between;
     position: relative;
 }
-
+#lightbox-item i{
+    color: #FFF;
+}
 #lightbox-item #close{
     position: absolute;
     top: 15px;

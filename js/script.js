@@ -262,32 +262,4 @@ lightboxcontainer.addEventListener("click",function(e){
 
 
 
-// var httpRequest=new XMLHttpRequest();
-// var posts=[];
-// httpRequest.open("GET","https://jsonplaceholder.typicode.com/posts");
-// httpRequest.send();
-// httpRequest.addEventListener("readystatechange",function(){
 
-//   if(httpRequest.readyState==4&&httpRequest.status==200)
-//   {
-//    posts= JSON.parse(httpRequest.response);
-//    displayPosts();
-//   }
-// })
-
-// function displayPosts(){
-//   var cols='';
-// for(var i=0;i<posts.length;i++){
-//   cols+=
-//   `
-//     <div class="col-md-3">
-//       <div>
-//         <h3>${posts[i].id}</h3>
-//         <h2>${posts[i].title}</h2>
-//         <p>${posts[i].body}</p>
-//       </div>
-//     </div>
-//   `
-// }
-//   document.getElementById("postsRow").innerHTML=cols
-// }
